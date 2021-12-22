@@ -12,9 +12,6 @@ let pause               = true;
 let initTime            = Date.now();
 let currentTime         = Date.now();
 let deltaTime           = currentTime - initTime;
-// let showDeltaTime       = true;
-// let count               = 0;
-// let frameCount          = 0;
 let initialFPS          = 2;
 let FPS                 = initialFPS;
 let fpsInterval         = 1000 / FPS;
@@ -32,9 +29,6 @@ let entity              = null;
 
 let leftRotation        = false;
 let rightRotation       = false;
-
-// let rowCompleted        = { isCompleted: false, row: 0 };
-// let canCreateNewEntity  = false;
 
 let score               = 0;
 let maxScore            = 0;
@@ -937,7 +931,6 @@ function checkRowComplete() {
   return data;
 }
 
-// https://stackoverflow.com/questions/19764018/controlling-fps-with-requestanimationframe
 function update() {
   //try {
     requestAnimationFrame(update);

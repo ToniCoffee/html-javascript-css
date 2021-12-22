@@ -1,2 +1,2 @@
 # html-javascript-css
-Repository for html, javascript and css projects
+Tetris made using Html, javascript and css.
