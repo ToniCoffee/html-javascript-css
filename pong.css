@@ -105,23 +105,3 @@
     --backgroundColor: #000000;
   }
 }
-
-/* @media screen and (orientation:landscape) {
-  :root {
-    --checkOrientation: 1;
-  }
-
-  body {
-    background-color: red;
-  }
-}
-
-@media screen and (orientation:portrait) {
-  :root {
-    --checkOrientation: 2;
-  }
-
-  body {
-    background-color: green;
-  }
-} */
