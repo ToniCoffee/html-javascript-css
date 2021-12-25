@@ -1,0 +1,88 @@
+html {
+  font-size: 1rem;
+  overflow-x: hidden;
+}
+
+/* body {
+  font-size: 100%;
+} */
+
+.topbar-item > * {
+  text-shadow: 2px 2px 2px #555555;
+}
+
+.header-wrapper {
+  background-color: #0e214b;
+}
+
+.heading h1 {
+  text-shadow: 2px 2px 2px #aaaaaa;
+}
+
+.heading h1 span { 
+  color: gold;
+}
+
+.finder-wrapper > * {
+  border: 1px solid #00000000;
+}
+
+.nav { 
+  border-radius: 10px;
+  background: rgb(25,46,128);
+  background: linear-gradient(90deg, rgba(25,46,128,1) 15%, rgba(255,0,86,1) 100%);
+}
+
+.nav > * {
+  text-shadow: 2px 2px 2px #555555;
+  transition: .5s;
+}
+
+.nav > *:hover {
+  color: gold;
+}
+
+.nav > *::after { 
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: #00000000;
+  transition: .5s;
+}
+
+.nav > *:hover::after {
+  width: 100%;
+  background-color: gold;
+}
+
+.card {
+  box-shadow: 0px 5px 5px #cccccc;
+  border-radius: 10px;
+}
+
+.card > h2 {
+  font-size: min(1.1em + 1vw, 1.5rem);
+}
+
+.card span {
+  position: absolute;
+  left: 50%;
+  bottom: -32px;
+  transform: translateX(-50%);
+}
+
+/* 600px = 600 / 16 = 37.5rem */
+@media only screen and (min-width: 37.5rem) {
+  /* For tablets: */
+  .flx-col {width: 50%;}
+}
+
+/* 768 = 768 / 16 = 48rem */
+@media only screen and (min-width: 900px) {
+  /* For iPad: */
+  .flx-col {width: 33.33%;}
+}
