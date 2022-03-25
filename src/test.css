@@ -1,0 +1,15 @@
+:root {
+  --bg-color: #ffffff;
+  --border-color: #000;
+  --month-bg-color: #46509d;
+  --month-color: #fff;
+  --weekdays-bg-color: #46509d;
+  --weekdays-color: #fff;
+  --stripes-color-1: #333;
+  --stripes-color-2: #777;
+  --today-color: #09f;
+  --btn-bg-color: #46509d;
+  --btn-shadow-color: #aaa;
+  --btn-bg-color-hover: #ddd;
+  --btn-border-color-hover: green;
+}
